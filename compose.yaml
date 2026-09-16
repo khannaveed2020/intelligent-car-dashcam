@@ -1,0 +1,11 @@
+services:
+  roadlens:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - roadlens-data:/opt/roadlens/data
+    restart: unless-stopped
+
+volumes:
+  roadlens-data:

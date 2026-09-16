@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.env
+
+# Local demo data and generated artifacts
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+sample_data/*.jpg
+sample_data/*.jpeg
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
