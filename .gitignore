@@ -14,6 +14,7 @@ data/
 *.mp4
 !sample_data/13958312-uhd_3840_2160_25fps.mp4
 !sample_data/855978-hd_1920_1080_30fps.mp4
+!demo/RoadLens_demo.mp4
 *.avi
 *.mov
 *.mkv

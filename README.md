@@ -67,6 +67,19 @@ pytest
 - `Find the cars`
 - `Show all vehicles`
 
+## Hackathon video
+
+The presentation deck and a rendered 46-second walkthrough are included for judging:
+
+- [RoadLens presentation deck](RoadLens%20%E2%80%94%20Intelligent%20Car%20Dashcam.pptx)
+- [RoadLens demo video](demo/RoadLens_demo.mp4)
+
+Regenerate the video locally with:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\create_demo_video.py
+```
+
 ## Presentation checklist
 
 - Use a tested 20–60 second H.264 MP4 containing at least one person and one vehicle.
